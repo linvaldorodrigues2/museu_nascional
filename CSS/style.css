@@ -17,7 +17,6 @@ header {
   display: block;
   text-indent: -2000px;
 }
-
 nav ul {
   list-style: none;
   margin: 20px;
@@ -32,7 +31,6 @@ nav ul li a {
   padding-bottom: 3px;
   text-transform: uppercase;
 }
-
 a:link,
 a:active,
 a:visited {
@@ -41,4 +39,36 @@ a:visited {
 }
 a:hover {
   color: #227115;
+}
+
+#conteudo {
+  width: 710px;
+  margin-bottom: 20px;
+  float: left;
+}
+h3 {
+  color: #227115;
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+article#video {
+  float: left;
+  width: 310px;
+  margin-left: 25px;
+}
+article#mapa {
+  float: left;
+  width: 310px;
+  margin-left: 25px;
+}
+article#expoisições {
+  float: left;
+  width: 310px;
+  margin: 15px 0 0 25px;
+}
+article#historia {
+  float: left;
+  width: 310px;
+  margin: 15px 0 0 37px;
 }
