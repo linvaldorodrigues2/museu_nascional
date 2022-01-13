@@ -1,0 +1,44 @@
+body {
+  background: url(/img/fundo.png) repeat-x;
+  font: 0.8em "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+}
+
+header {
+  padding: 0.9em 0;
+  height: 3.4em;
+}
+#logo h1 {
+  float: left;
+}
+#logo a {
+  background: url(../img/logo.png) no-repeat;
+  width: 248px;
+  height: 21px;
+  display: block;
+  text-indent: -2000px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 20px;
+  float: right;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  margin-left: 25px;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #af670a;
+  text-decoration: none;
+}
+a:hover {
+  color: #227115;
+}
