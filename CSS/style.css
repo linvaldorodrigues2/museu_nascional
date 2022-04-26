@@ -1,8 +1,15 @@
 body {
   background: #f4f2ec url(/img/fundo.png) repeat-x;
   font: 0.8em "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
+#container {
+  width: 1080px;
+}
+
+/*header*/
 header {
   padding: 0.9em 0;
   height: 3.4em;
@@ -26,58 +33,59 @@ nav ul li {
   float: left;
 }
 nav ul li a {
+  color: #af670a;
   display: block;
   margin-left: 25px;
   padding-bottom: 3px;
   text-transform: uppercase;
-}
-a:link,
-a:active,
-a:visited {
-  color: #af670a;
   text-decoration: none;
 }
-a:hover {
+nav ul li a:hover {
   color: #227115;
 }
 
-#container {
-  width: 1080px;
-  margin: 0 auto;
-}
-
+/*conteudo*/
 #conteudo {
   width: 710px;
   margin-bottom: 20px;
   float: left;
 }
+
+/*formatação geral*/
 h3 {
   color: #227115;
   font-size: 1em;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
-article#video {
+a {
+  color: #86521a;
+  text-decoration: none;
+}
+
+/*área de artigos*/
+#video {
   float: left;
   width: 310px;
   margin-left: 25px;
 }
-article#mapa {
+#mapa {
   float: left;
   width: 310px;
   margin-left: 25px;
 }
-article#exposicoes {
+#exposicoes {
   float: left;
   width: 310px;
   margin: 15px 0 0 25px;
 }
-article#historia {
+#historia {
   float: left;
   width: 310px;
   margin: 15px 0 0 37px;
 }
 
+/*lateral*/
 aside {
   width: 350px;
   float: right;
@@ -85,7 +93,9 @@ aside {
   margin-bottom: 20px;
   padding-bottom: 30px;
 }
-section#visita {
+
+/*campo de visitas*/
+#visita {
   background: #cdc8b1;
   padding: 10px 27px 27px 27px;
   margin-top: 10px;
@@ -112,6 +122,7 @@ input {
   font-size: 1em;
 }
 input.campo {
+  width: 30px;
   border: 1px solid #ada484;
 }
 input.botao {
@@ -121,17 +132,21 @@ input.botao {
   height: 40px;
   font-size: 1.2em;
 }
-section#galeria {
+
+/*galeira de fotos*/
+#galeria {
   padding: 0 27px;
 }
-section#galeria a {
+#galeria a {
   display: block;
   background: url(../img/fundo-foto.png) no-repeat;
   margin: 10px 0 0 20px;
   padding: 17px 15px;
   float: left;
 }
-section#galeria img {
+#galeria img {
+  width: 93px;
+  height: 93px;
   margin: 2px 0 0 2px;
 }
 
@@ -141,6 +156,6 @@ footer {
   background: url(../img/fundo-rodape.png) no-repeat center top;
   clear: both;
 }
-footer > p a {
+footer a {
   padding: 2px 10px;
 }
