@@ -148,12 +148,16 @@
           <h4>Faça uma visita</h4>
           <form action="">
             <fieldset>
-              <legend id="legend">Selecione uma data</legend>
               <label for="data">Data:</label>
-              <input class="campo" type="text" id="data" value="dd/mm/aaaa" />
+              <input
+                class="campo-data"
+                type="text"
+                id="data"
+                value="dd/mm/aaaa"
+              />
 
               <label for="qtd">Qtd pessoas</label>
-              <input class="campo" type="text" id="qtd" value="1" />
+              <input class="campo-qtd" type="text" id="qtd" value="1" />
             </fieldset>
             <input
               class="botao"
@@ -167,18 +171,20 @@
         <section id="galeria">
           <!--Galeria-->
           <h4>Galeria de fotos</h4>
-          <a href="">
-            <img src="../img/imagem1.jpg" alt="imagem1.jpg" />
-          </a>
-          <a href="">
-            <img src="../img/imagem2.jpg" alt="imagem2.jpg" />
-          </a>
-          <a href="">
-            <img src="../img/imagem3.jpg" alt="imagem3.jpg" />
-          </a>
-          <a href="">
-            <img src="../img/imagem4.jpg" alt="imagem4.jpg" />
-          </a>
+          <div id="galeria-foto">
+            <a href="">
+              <img src="../img/imagem1.jpg" alt="imagem1.jpg" />
+            </a>
+            <a href="">
+              <img src="../img/imagem2.jpg" alt="imagem2.jpg" />
+            </a>
+            <a href="">
+              <img src="../img/imagem3.jpg" alt="imagem3.jpg" />
+            </a>
+            <a href="">
+              <img src="../img/imagem4.jpg" alt="imagem4.jpg" />
+            </a>
+          </div>
         </section>
         <!--//Galeria-->
       </aside>
